@@ -129,9 +129,39 @@ const text2 = new String("Rocky");
 //     16. spilit() method - convert string to an array
            const hobbies = "Vollybol, Cricket, Swimming"
            const myHobbies = hobbies.split(",")
-           console.log(myHobbies);
-           console.log(typeof myHobbies); // datatype of var
-           console.log(typeof hobbies);   // datatype of var
+        //    console.log(myHobbies);
+        //    console.log(typeof myHobbies); // datatype of var
+        //    console.log(typeof hobbies);   // datatype of var
            
-           
-           
+
+//     17. search() method - return value of first string match. it is case-sensitive. and if value not matched its return nagative value(-1)
+//        match() method - return value of array if matches found. when no found its return value is nullable(null)
+          const gamer = "EzLiaan is a good gamer"
+          const excsRepl = gamer.replace("good", "Nice")
+          const gamerIndex = excsRepl.search("Nice") // search method 
+          const gamerIndexM = excsRepl.match("aan")  // match method 
+          console.log(gamerIndex);
+          console.log(gamerIndexM);
+          
+          
+
+
+
+
+
+        // convert string to array 
+        const student = "Dawn, Spotlight, Coffy, Aurora, Ella"
+        const studentArray = student.split("")
+        
+
+        const isArraystd = Array.isArray(studentArray)
+        // console.log(studentArray);
+        // console.log(isArraystd);
+        
+        
+        
+        
+        
+
+
+        
