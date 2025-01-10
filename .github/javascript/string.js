@@ -140,8 +140,8 @@ const text2 = new String("Rocky");
           const excsRepl = gamer.replace("good", "Nice")
           const gamerIndex = excsRepl.search("Nice") // search method 
           const gamerIndexM = excsRepl.match("aan")  // match method 
-          console.log(gamerIndex);
-          console.log(gamerIndexM);
+        //   console.log(gamerIndex);
+        //   console.log(gamerIndexM);
           
           
 
